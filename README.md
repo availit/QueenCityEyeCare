@@ -3,6 +3,8 @@
 > A static website boilerplate utilizing Gulp build system and Materialize CSS framework
 > Built for deployment using [Netlify](http://netlify.com)
 
+![Image of Material-JAM](https://i.imgur.com/nQ4LD7g.png)
+
 ## Featuring
 
 * Browser-Sync dev server with hot reload
