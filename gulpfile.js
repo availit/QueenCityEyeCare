@@ -1,32 +1,37 @@
 const gulp = require('gulp')
+const nunjucksRender = require('gulp-nunjucks-render')
 const htmlmin = require('gulp-htmlmin')
 const imagemin = require('gulp-imagemin')
 const uglify = require('gulp-uglify')
 const sass = require('gulp-sass')
 const concat = require('gulp-concat')
 const browserSync = require('browser-sync').create()
-/*
-  -- Top level functions --
-  gulp.task - define tasks
-  gulp.src - point to file source
-  gulp.dest - point to output folder
-  gulp.watch - watch files/folders for changes
-
-*/
 
 // gulp default
 gulp.task('default', ['serve'])
-// gulp Build
-gulp.task('build', ['imageMin', 'minifyHtml', 'sass', 'JS'])
 
-gulp.task('serve', ['imageMin', 'minifyHtml', 'sass', 'JS'], () => {
+// npm run build
+gulp.task('build', ['nunjucks','imageMin', 'sass', 'JS'])
+
+// npm run dev
+gulp.task('serve', ['nunjucks','imageMin', 'sass', 'JS'], () => {
   browserSync.init({
     server: "./dist"
   })
-
   gulp.watch('src/js/*.js', ['JS'])
   gulp.watch('src/scss/*.scss', ['sass'])
-  gulp.watch('src/*.html', ['minifyHtml']).on('change', browserSync.reload)
+  gulp.watch('src/templates/**/*.nj', ['nunjucks']).on('change', browserSync.reload)
+  gulp.watch('src/pages/**/*.nj', ['nunjucks']).on('change', browserSync.reload)
+})
+
+//compile templates
+gulp.task('nunjucks', () => {
+  gulp.src('src/pages/**/*.nj')
+    .pipe(nunjucksRender({
+      path: ['src/templates']
+    }))
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('dist'))
 })
 
 // optimze images
@@ -36,12 +41,6 @@ gulp.task('imageMin', () => {
     .pipe(gulp.dest('dist/img'))
 })
 
-// minify html
-gulp.task('minifyHtml', () => {
-  gulp.src('src/*.html')
-    .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('dist'))
-})
 
 // compile sass
 gulp.task('sass', () => {
@@ -57,4 +56,11 @@ gulp.task('JS', () => {
     .pipe(uglify())
     .pipe(concat('main.js'))
     .pipe(gulp.dest('dist/js'))
+})
+
+// minify html
+gulp.task('minifyHtml', () => {
+  gulp.src('src/*.html')
+  .pipe(htmlmin({collapseWhitespace: true}))
+  .pipe(gulp.dest('dist'))
 })
