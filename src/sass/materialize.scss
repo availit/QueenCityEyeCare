@@ -1,4 +1,14 @@
 @charset "UTF-8";
+//custom
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
 
 // Color
 @import "components/color-variables";

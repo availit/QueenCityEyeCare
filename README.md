@@ -1,17 +1,18 @@
 # Material-JAMstack
 
-> A static website boilerplate utilizing Gulp build system and Materialize CSS framework
+> A static website boilerplate utilizing Materialize CSS framework
 > Built for deployment using [Netlify](http://netlify.com)
 
 ![Image of Material-JAM](https://i.imgur.com/nQ4LD7g.png)
 
-## Featuring
+## Features
 
-* Browser-Sync dev server with hot reload
-* Gulp build system
-* Materialize CSS framework
-* jQuery yet again
 * Ready for the 'A' in [JAM](https://jamstack.org/)
+* Mozilla Nunjucks Templating Engine
+* Materialize CSS framework
+* GulpJS Build System
+* Browser-Sync dev environment with hot reload
+* jQuery yet again
 
 ## Build
 

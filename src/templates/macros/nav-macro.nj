@@ -1,17 +1,21 @@
 {% macro active(activePage='home') %}
-<nav class="lime" role="navigation">
- <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
-   <ul class="right hide-on-med-and-down">
-     <li class="{%if activePage =='home' %} active {% endif %}"><a href="/">Home</a></li>
-     <li class="{%if activePage =='about' %} active {% endif %}"><a href="/about">Navbar Link</a></li>
-   </ul>
+<div class="navbar-fixed">
+  <nav class="lime" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo">Logo</a>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li class="{%if activePage =='home' %} active {% endif %}"><a href="/">Home</a></li>
+      <li class="{%if activePage =='about' %} active {% endif %}"><a href="/about">Navbar Link</a></li>
+    </ul>
+  </div>
+  </nav>
+</div>
 
-   <ul id="nav-mobile" class="sidenav">
-     <li><a href="#">Home</a></li>
-     <li><a href="#">Navbar Link</a></li>
-   </ul>
-   <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
- </div>
-</nav>
+<ul id="nav-mobile" class="sidenav">
+  <li><a class="subheader">Subheader</a></li>
+  <li><a href="/"><i class="material-icons">home</i>Home</a></li>
+  <li><a href="/about"><i class="material-icons">content_cut</i>Navbar Link</a></li>
+</ul>
 
 {% endmacro %}

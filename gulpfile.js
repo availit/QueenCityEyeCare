@@ -18,15 +18,15 @@ gulp.task('serve', ['nunjucks','imageMin', 'sass', 'JS'], () => {
   browserSync.init({
     server: "./dist"
   })
-  gulp.watch('src/js/*.js', ['JS'])
-  gulp.watch('src/scss/*.scss', ['sass'])
-  gulp.watch('src/templates/**/*.nj', ['nunjucks']).on('change', browserSync.reload)
+  gulp.watch('src/js/*.js', ['JS']).on('change', browserSync.reload)
+  gulp.watch('src/scss/*.scss', ['sass']).on('change', browserSync.reload)
   gulp.watch('src/pages/**/*.nj', ['nunjucks']).on('change', browserSync.reload)
+  gulp.watch('src/templates/**/*.nj', ['nunjucks']).on('change', browserSync.reload)
 })
 
 //compile templates
 gulp.task('nunjucks', () => {
-  gulp.src('src/pages/**/*.nj')
+  return gulp.src('src/pages/**/*.nj')
     .pipe(nunjucksRender({
       path: ['src/templates']
     }))
@@ -36,7 +36,7 @@ gulp.task('nunjucks', () => {
 
 // optimze images
 gulp.task('imageMin', () => {
-  gulp.src('src/img/*')
+  return gulp.src('src/img/**/*')
     .pipe(imagemin())
     .pipe(gulp.dest('dist/img'))
 })
@@ -44,7 +44,7 @@ gulp.task('imageMin', () => {
 
 // compile sass
 gulp.task('sass', () => {
-  gulp.src('src/sass/*.scss')
+  return gulp.src('src/sass/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('dist/css'))
     .pipe(browserSync.stream())
@@ -52,7 +52,7 @@ gulp.task('sass', () => {
 
 // compile Javascript dependancies
 gulp.task('JS', () => {
-  gulp.src(['node_modules/jquery/dist/jquery.js','src/js/index.js', 'src/js/materialize/bin/materialize.min.js'])
+  return gulp.src(['node_modules/jquery/dist/jquery.js','src/js/index.js', 'src/js/materialize/bin/materialize.min.js'])
     .pipe(uglify())
     .pipe(concat('main.js'))
     .pipe(gulp.dest('dist/js'))
@@ -60,7 +60,7 @@ gulp.task('JS', () => {
 
 // minify html
 gulp.task('minifyHtml', () => {
-  gulp.src('src/*.html')
+  return gulp.src('src/*.html')
   .pipe(htmlmin({collapseWhitespace: true}))
   .pipe(gulp.dest('dist'))
 })

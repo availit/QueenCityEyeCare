@@ -1,3 +1,5 @@
 $(document).ready(function(){
-     $('.modal').modal();
+    $('.sidenav').sidenav();
+    $('.materialboxed').materialbox();
+    $('.modal').modal();
   });
