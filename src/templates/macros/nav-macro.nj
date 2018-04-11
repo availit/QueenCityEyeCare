@@ -7,6 +7,7 @@
     <ul class="right hide-on-med-and-down">
       <li class="{%if activePage =='home' %} active {% endif %}"><a href="/">Home</a></li>
       <li class="{%if activePage =='about' %} active {% endif %}"><a href="/about">Navbar Link</a></li>
+      <li class="{%if activePage =='contact' %} active {% endif %}"><a href="/contact">Contact</a></li>
     </ul>
   </div>
   </nav>

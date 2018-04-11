@@ -1,0 +1,24 @@
+{% extends "../templates/layout.nj" %}
+
+{% block content %}
+{% import 'macros/nav-macro.nj' as nav %}
+{{nav.active('contact')}}
+<main>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <div class="row center">
+        This is the contact page
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+     Another Section
+    </div>
+    <br><br>
+  </div>
+
+</main>
+{% endblock %}
