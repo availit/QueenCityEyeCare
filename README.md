@@ -6,7 +6,7 @@
 ![Image of Material-JAM](https://i.imgur.com/nQ4LD7g.png)
 
 ## Features
-The [JAM](https://jamstack.org/):
+The fresh ingredients to the [JAM](https://jamstack.org/):
 * Featuring [Anymod](https://anymod.com) for a componentized CMS
 * Mozilla Nunjucks Templating Engine
 * Materialize CSS framework
