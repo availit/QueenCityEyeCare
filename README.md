@@ -6,13 +6,12 @@
 ![Image of Material-JAM](https://i.imgur.com/nQ4LD7g.png)
 
 ## Features
-
-* Ready for the 'A' in [JAM](https://jamstack.org/)
+The [JAM](https://jamstack.org/):
+* Featuring [Anymod](https://anymod.com) for a componentized CMS
 * Mozilla Nunjucks Templating Engine
 * Materialize CSS framework
 * GulpJS Build System
 * Browser-Sync dev environment with hot reload
-* jQuery yet again
 
 ## Build
 
