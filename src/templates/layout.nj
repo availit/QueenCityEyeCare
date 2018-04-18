@@ -22,7 +22,8 @@
   {% block content %} {% endblock %}
 
   {% include "partials/footer.nj" %}
-
+  
+  <script project="8P2P24" src="https://cdn.anymod.com/v1"></script>
   <script type="text/javascript" src="../js/main.js"></script>
  </body>
  </html>

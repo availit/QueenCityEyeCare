@@ -8,10 +8,12 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center amber-text">Material-JAM</h1>
       <div class="row center">
-        <img class="materialboxed" src="../img/material-jam.png" width="256" alt="logo">
-        <h5 class="header col s12 light">A static JAMstack boilerplate</h5>
+        <div id=anymod-domkl></div>
+        <div class="center" style="max-width:256px; margin: 0 auto;">
+          <img class="materialboxed" src="../img/material-jam.png" width="256" alt="logo">
+        </div>
+
       </div>
       <div class="row center">
         <a href="#" id="download-button" class="btn-large waves-effect waves-light amber">Get Started</a>
