@@ -1,4 +1,7 @@
 {% extends "../templates/layout.nj" %}
+{% block head %}
+<title>Material JAM</title>
+{% endblock %}
 
 {% block content %}
 {% import 'macros/nav-macro.nj' as nav %}

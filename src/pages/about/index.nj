@@ -1,5 +1,9 @@
 {% extends "../templates/layout.nj" %}
 
+{% block head %}
+<title>About Page</title>
+{% endblock %}
+
 {% block content %}
 {% import 'macros/nav-macro.nj' as nav %}
 {{nav.active('about')}}
