@@ -7,9 +7,9 @@
 {% block content %}
 {% import 'macros/nav-macro.nj' as nav %}
 {{nav.active('contact')}}
-<main>
+<main class="grey lighten-4">
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
+    <div class="container z-depth-2 white">
       <form action="">
       <div class="row">
         <div class="input-field col s12 m6">

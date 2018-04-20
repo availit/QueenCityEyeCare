@@ -7,10 +7,9 @@
 {% import 'macros/nav-macro.nj' as nav %}
 {{nav.active('home')}}
 
-<main>
+<main class="grey lighten-4">
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
+    <div class="container z-depth-2">
       <div class="row center">
         <div id=anymod-domkl></div>
         <div class="center" style="max-width:256px; margin: 0 auto;">

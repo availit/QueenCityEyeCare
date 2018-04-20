@@ -7,23 +7,16 @@
 {% block content %}
 {% import 'macros/nav-macro.nj' as nav %}
 {{nav.active('about')}}
-<main>
+<main class="grey lighten-4">
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
+    <div class="container z-depth-2 white">
       <div class="row center">
+        <div class="col s12">
+
         This is the About page
+        </div>
       </div>
     </div>
-  </div>
-
-
-
-  <div class="container">
-    <div class="section">
-     Another Section
-    </div>
-    <br><br>
   </div>
 
 </main>

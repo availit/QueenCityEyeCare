@@ -1,4 +1,5 @@
-<nav class="lime" role="navigation">
+<!-- ACTUAL NAV BAR IS A MACRO -->
+<nav class="deep-orange darken-3" role="navigation">
  <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
    <ul class="right hide-on-med-and-down">
      <li class="active"><a href="#">Home</a></li>
