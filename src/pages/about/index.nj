@@ -9,11 +9,23 @@
 {{nav.active('about')}}
 <main class="grey lighten-4">
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container z-depth-2 white">
-      <div class="row center">
-        <div class="col s12">
-
-        This is the About page
+    <div class="container z-depth-1 white">
+      <div class="row">
+        <div class="col s6">
+        <h4>Our Mission</h4>
+        Our mission is to exceed our patients’ expectations by always demonstrating ethics, compassion and professionalism in a friendly family orientated atmosphere. By focusing on providing the most proficient eye care available our knowledgeable staff will be genuinely helpful and friendly in giving you the vision you deserve.
+        </div>
+        <div class="col s6">
+          <div class="row">
+            <div class="col s12 light-blue lighten-4 white-text">
+              <h4>Book Your Exam</h4>
+            </div>
+            <div class="col s12">
+              <input type="text" placeholder="Your Name">
+              <input type="text" placeholder="Your Phone">
+              <a href="" class="btn light-blue">Make Apointment</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

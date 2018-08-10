@@ -2,7 +2,7 @@
 <div class="navbar-fixed">
   <nav class="white black-text" role="navigation">
   <div class="nav-wrapper container black-text">
-    <a id="logo-container" href="#" class="brand-logo black-text"><img src="../img/qc.png" alt="Queen City Eye Care" height="56"></a>
+    <a id="logo-container" href="/" class="brand-logo black-text"><img src="../img/qc.png" alt="Queen City Eye Care" height="56"></a>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
       <li class="{%if activePage =='home' %} active {% endif %}"><a class="black-text" href="/">Home</a></li>
