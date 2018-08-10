@@ -1,6 +1,6 @@
 {% extends "../templates/layout.nj" %}
 {% block head %}
-<title>Material JAM</title>
+<title>Queen City Eye Care</title>
 {% endblock %}
 
 {% block content %}
@@ -11,11 +11,11 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container z-depth-2">
       <div class="row center">
-        <div id=anymod-domkl></div>
-        <div class="center" style="max-width:256px; margin: 0 auto;">
+        {# <div id=anymod-domkl></div> #}
+        {# <div class="center" style="max-width:256px; margin: 0 auto;">
           <img class="materialboxed" src="../img/material-jam.png" width="256" alt="logo">
-        </div>
-        <div id=anymod-bnbmd data-load=b></div>
+        </div> #}
+        {# <div id=anymod-bnbmd data-load=b></div> #}
       </div>
       <div class="row center">
         <a href="#" id="download-button" class="btn-large waves-effect waves-light amber">Get Started</a>

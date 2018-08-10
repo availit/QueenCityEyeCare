@@ -1,6 +1,6 @@
 <!-- ACTUAL NAV BAR IS A MACRO -->
 <nav class="deep-orange darken-3" role="navigation">
- <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+ <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Queen City</a>
    <ul class="right hide-on-med-and-down">
      <li class="active"><a href="#">Home</a></li>
      <li><a href="#">Navbar Link</a></li>
