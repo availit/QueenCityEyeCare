@@ -8,17 +8,17 @@
 {{nav.active('home')}}
 
 <main class="grey lighten-4">
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container z-depth-2">
+  <div class="no-pad-bot" id="index-banner">
+    <div class="parallax-container">
+      <div class="parallax"><img src="../img/slide1.jpg"></div>
+    </div>
+    <div class="container section z-depth-2 white">
       <div class="row center">
-        {# <div id=anymod-domkl></div> #}
-        {# <div class="center" style="max-width:256px; margin: 0 auto;">
-          <img class="materialboxed" src="../img/material-jam.png" width="256" alt="logo">
-        </div> #}
-        {# <div id=anymod-bnbmd data-load=b></div> #}
+        text content
       </div>
       <div class="row center">
-        <a href="#" id="download-button" class="btn-large waves-effect waves-light amber">Get Started</a>
+        <div class="col s6">six col</div>
+        <div class="col s6">six col</div>
       </div>
       <br><br>
        <div class="row center">
