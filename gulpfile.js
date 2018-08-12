@@ -18,7 +18,7 @@ gulp.task('serve', ['nunjucks','imageMin', 'sass', 'JS'], () => {
   browserSync.init({
     server: "./dist"
   })
-  gulp.watch('src/js/*.js', ['JS']).on('change', browserSync.reload)
+  // gulp.watch('src/js/*.js', ['JS']).on('change', browserSync.reload)
   gulp.watch('src/scss/*.scss', ['sass']).on('change', browserSync.reload)
   gulp.watch('src/pages/**/*.nj', ['nunjucks']).on('change', browserSync.reload)
   gulp.watch('src/templates/**/*.nj', ['nunjucks']).on('change', browserSync.reload)
@@ -52,7 +52,8 @@ gulp.task('sass', () => {
 
 // compile Javascript dependancies
 gulp.task('JS', () => {
-  return gulp.src(['node_modules/jquery/dist/jquery.js', 'src/js/materialize/bin/materialize.min.latest.js', 'src/js/index.js'])
+  // return gulp.src(['node_modules/jquery/dist/jquery.js', 'src/js/materialize/bin/materialize.min.latest.js', 'src/js/index.js'])
+  return gulp.src(['src/js/materialize/bin/materialize.min.js', 'src/js/index.js'])
     .pipe(uglify())
     .pipe(concat('main.js'))
     .pipe(gulp.dest('dist/js'))
