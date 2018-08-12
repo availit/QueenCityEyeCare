@@ -12,20 +12,20 @@
   <meta name="msapplication-TileImage" content="../img/favicon/mstile-144x144.png">
   <link rel="icon" href="../img/favicon/favicon-32x32.png" sizes="32x32">
   <!--  Android 5 Chrome Color-->
-  <meta name="theme-color" content="#222222">
+  <meta name="theme-color" content="#5c6bc0">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../css/materialize.css">
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
 <body>
+  {% include "partials/preloader.nj" %}
 
   <!-- this content block in another file -->
   {% block content %} {% endblock %}
 
   {% include "partials/footer.nj" %}
 
-  <script project="8P2P24" src="https://cdn.anymod.com/v1"></script>
-   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="../js/main.js"></script>
  </body>
  </html>

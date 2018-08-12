@@ -23,6 +23,19 @@ nav.brand-logo {
 
 @media only screen and (max-width:768px) { .row.valign-wrapper { display: inherit; } }
 
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.load-spinner {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	// background: url(images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+  background: #fff;
+}
+
 // Color
 @import "components/color-variables";
 @import "components/color-classes";

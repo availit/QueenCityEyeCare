@@ -1,6 +1,6 @@
-
 (function($){
-  $(function(){
+
+  $(function(){ // on doc ready
     $('.collapsible').collapsible();
     $(".dropdown-trigger").dropdown({
           inDuration: 300,
@@ -16,4 +16,5 @@
     $('.materialboxed').materialbox();
     $('.modal').modal();
   }); // end of document ready
+
 })(jQuery); // end of jQuery name space
