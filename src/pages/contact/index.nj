@@ -31,7 +31,7 @@
                 <textarea id="message_input" class="materialize-textarea" data-length="1000"  required></textarea>
                 <label for="message_input">Message</label>
                 <span class="helper-text" data-error="Too many characters. 1000 maximum." data-success="right"></span>
-                <button class="btn-large waves-effect waves-light secondary" type="submit" name="action">Submit
+                <button class="btn-large waves-effect waves-light secondary right" type="submit" name="action">Submit
                   <i class="material-icons right">send</i>
                 </button>
               </div>

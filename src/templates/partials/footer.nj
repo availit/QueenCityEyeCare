@@ -1,32 +1,33 @@
 <footer class="page-footer white">
   <div class="container">
     <div class="row">
-      <div class="col l6 s12">
-        <h5 class="grey-text text-darken-4">Queen City Eye Care</h5>
+      <div class="col l3 m6 s12">
+        <h5 class="grey-text text-darken-4">Location</h5>
         <p class="grey-text text-darken-4">
           520 W University<br />
           Springfield, MO 65807</p>
+        <a class="waves-effect waves-dark btn-flat grey lighten-2" href="https://www.google.com/maps/dir//Queen+City+Eye+Care,+520+W+University+St+C,+Springfield,+MO+65807/@37.182759,-93.2994254,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87cf6375c227c331:0xf2eeb6802ed44c10!2m2!1d-93.2972367!2d37.182759">
+           <i class="material-icons left">near_me</i>Navigate</a>
+      </div>
+      <div class="col l3 m6 s12">
         <h5 class="grey-text text-darken-4">Hours</h5>
-          <p class="grey-text text-darken-4">
-            Mon-Fri 9am-6pm<br />
-            Sat 9am-2pm</p>
+        <p class="grey-text text-darken-4">
+          Mon-Fri 9am-6pm<br />
+          Sat 9am-2pm</p>
       </div>
-      <div class="col l3 s12">
-        <h5 class="grey-text text-darken-4">Navigation</h5>
-        <ul>
-          <li><a class="grey-text text-darken-4" href="#!">About Us</a></li>
-          <li><a class="grey-text text-darken-4" href="#!">Our Practice</a></li>
-          <li><a class="grey-text text-darken-4" href="#!">Patient Resources</a></li>
-          <li><a class="grey-text text-darken-4" href="#!">Contact Us</a></li>
-        </ul>
+      <div class="col l3 m6 s12 grey-text text-darken-4">
+        <h5>Questions?</h5>
+        <p>+1-417-831-8222</p>
+        <a class="waves-effect waves-dark btn-flat grey lighten-2" href="tel:1-417-831-8222">
+           <i class="material-icons left">phone_in_talk</i>Call Now</a>
       </div>
-      <div class="col l3 s12">
-        <h5 class="grey-text text-darken-4">Connect</h5>
+      <div class="col l3 m6 s12 grey-text text-darken-4">
+        <h5>Connect</h5>
         <ul>
-          <li><a class="grey-text text-darken-4" href="#!">Facebook</a></li>
-          <li><a class="grey-text text-darken-4" href="#!">Instagram</a></li>
-          <li><a class="grey-text text-darken-4" href="#!">LinkedIn</a></li>
-          <li><a class="grey-text text-darken-4" href="#!">Twitter</a></li>
+          <li><a href="#!">Facebook</a></li>
+          <li><a href="#!">Instagram</a></li>
+          <li><a href="#!">LinkedIn</a></li>
+          <li><a href="#!">Twitter</a></li>
         </ul>
       </div>
     </div>

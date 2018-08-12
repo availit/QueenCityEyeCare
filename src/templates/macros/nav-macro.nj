@@ -40,7 +40,7 @@
       <a id="logo-container" href="/" class="brand-logo black-text" style="padding-left:10px;"><img src="../img/qc.png" alt="Queen City Eye Care" height="56"></a>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
-      <li class="{%if activePage =='home' %} active {% endif %}"><a class="black-text" href="/">Home</a></li>
+      <!-- <li class="{%if activePage =='home' %} active {% endif %}"><a class="black-text" href="/">Home</a></li> -->
       <li><a class="dropdown-trigger black-text" href="#!" data-target="our-practice">Our Practice</a></li>
       <li><a class="dropdown-trigger black-text" href="#!" data-target="services">Eye Care Services</a></li>
       <li><a class="dropdown-trigger black-text" href="#!" data-target="eyewear">Eyewear</a></li>
@@ -113,7 +113,7 @@
     </div>
   </li>
   <li class="{%if activePage =='contact' %} active {% endif %}"><a class="collapsible-header waves-effect waves-blue black-text" href="/contact" tabindex="7">Contact Us</a></li>
-  <li><a class="waves-effect waves-light btn indigo">Book Now</a></li>
+  <li><a href="/appointment" class="waves-effect waves-light btn secondary">Book Now</a></li>
 </ul>
 
 {% endmacro %}

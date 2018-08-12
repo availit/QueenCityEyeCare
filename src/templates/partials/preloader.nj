@@ -17,6 +17,6 @@
 // Spinner animation
 $(window).load(function() {
 // Animate loader off screen
-  $(".load-spinner").fadeOut();;
+  $(".load-spinner").fadeOut();
 });
 </script>

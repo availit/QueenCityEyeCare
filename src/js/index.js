@@ -1,5 +1,4 @@
 (function($){
-
   $(function(){ // on doc ready
     $('.collapsible').collapsible();
     $(".dropdown-trigger").dropdown({
@@ -13,8 +12,36 @@
     $('input#input_text, textarea#message_input').characterCounter();
     $('.parallax').parallax();
     $('.sidenav').sidenav();
-    $('.materialboxed').materialbox();
-    $('.modal').modal();
+
+    // DATE OF BIRTH SELECTOR
+    $('#birthdate').datepicker({
+    defaultDate: new Date(1980,01,0),
+    maxDate: new Date(2002,01,01),
+    minDate: new Date(1919,01,01),
+    yearRange: [1920, 2001],
+    showMonthAfterYear: true,
+    autoClose: true,
+    });
+    // Appointment Date Selector
+    $('#appointmentDate').datepicker({
+    disableDayFn: function (date) {
+      // if it's a sunday disable it
+      if (date.getDay() == 0) {
+        return true
+      } else {
+        return false
+      }
+    },
+    defaultDate: new Date(),
+    yearRange: [2018, 2019],
+    showMonthAfterYear: true,
+    autoClose: true,
+    });
+    // Appointment Time SELECTOR
+    $('.timepicker').timepicker({
+      autoClose: true,
+    });
+
   }); // end of document ready
 
 })(jQuery); // end of jQuery name space

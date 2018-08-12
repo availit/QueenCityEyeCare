@@ -52,7 +52,7 @@ gulp.task('sass', () => {
 
 // compile Javascript dependancies
 gulp.task('JS', () => {
-  return gulp.src(['node_modules/jquery/dist/jquery.js','src/js/index.js', 'src/js/materialize/bin/materialize.min.js'])
+  return gulp.src(['node_modules/jquery/dist/jquery.js', 'src/js/materialize/bin/materialize.min.latest.js', 'src/js/index.js'])
     .pipe(uglify())
     .pipe(concat('main.js'))
     .pipe(gulp.dest('dist/js'))
