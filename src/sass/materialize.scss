@@ -21,6 +21,8 @@ nav.brand-logo {
   margin-left: 5px!important;
 }
 
+@media only screen and (max-width:768px) { .row.valign-wrapper { display: inherit; } }
+
 // Color
 @import "components/color-variables";
 @import "components/color-classes";

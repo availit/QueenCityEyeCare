@@ -25,24 +25,24 @@
   <div class="no-pad-bot" id="index-banner">
     <div class="section container white">
       <div class="row">
-            <div class="col s4">
+            <div class="col s12 m4">
               <div class="center promo promo-example">
                 <i class="material-icons">visibility</i>
-                <p class="promo-caption bold">Comprehensive Eye Exams</p>
+                <h4 class="promo-caption light">Comprehensive Eye Exams</h4>
                 <p class="center">We stick to a complete and full oculat examination process with every patient, every time.</p>
               </div>
             </div>
-            <div class="col s4">
+            <div class="col s12 m4">
               <div class="center promo promo-example">
                 <i class="material-icons">looks</i>
-                <p class="promo-caption bold">Complete Optical Services</p>
+                <h4 class="promo-caption light">Complete Optical Services</h4>
                 <p class="center">Provided is a huge spectr of services, including hand-picked designer frames and glasses.</p>
               </div>
             </div>
-            <div class="col s4">
+            <div class="col s12 m4">
               <div class="center promo promo-example">
                 <i class="material-icons">pageview</i>
-                <p class="promo-caption bold">Contact Lens Examination</p>
+                <h4 class="promo-caption light">Contact Lens Examination</h4>
                 <p class="center">Effective and immediate assistance with getting the perfect pair of high quality eye lens.</p>
               </div>
             </div>
@@ -67,24 +67,15 @@
     <div class="section red accent-2 white-text">
       <div class="container">
         <div class="row valign-wrapper">
-          <div class="col s12 m8 left-align">
-            <h2 class="light subheader">Book Your Exam Appointment Online</h2>
+          <div class="col s12 m7">
+            <h3 class="light subheader">Book Your Exam Appointment Online</h3>
           </div>
-          <div class="col s12 m4 right-align">
-            <a href="#" class="btn-large white black-text waves-effect waves-light">Make an Appointment</a>
+          <div class="col s12 m5 center-align">
+            <a href="#" class="btn white black-text waves-effect waves-dark">Create Appointment</a>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-
-
-  <div class="container">
-    <div class="section">
-     Another Section
-    </div>
-    <br><br>
   </div>
 
 <div class="sidenav-overlay"></div>

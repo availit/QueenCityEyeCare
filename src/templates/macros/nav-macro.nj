@@ -2,42 +2,42 @@
 <div class="navbar-fixed">
   <!-- OUR PRACTICE -->
   <ul id="our-practice" class="dropdown-content">
-    <li><a class="black-text" href="#!">Meet The Doctors</a></li>
-    <li><a class="black-text" href="#!">Technology</a></li>
-    <li><a class="black-text" href="#!">Optometry Giving Sight</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Meet The Doctors</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Technology</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Optometry Giving Sight</a></li>
   </ul>
   <!-- SERVICES -->
   <ul id="services" class="dropdown-content">
-    <li><a class="black-text" href="#!">Eye Exams</a></li>
-    <li><a class="black-text" href="#!">Contact Lenses</a></li>
-    <li><a class="black-text" href="#!">Lasik Consultation</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Eye Exams</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Contact Lenses</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Lasik Consultation</a></li>
   </ul>
   <!-- EYEWEAR -->
   <ul id="eyewear" class="dropdown-content">
-    <li><a class="black-text" href="#!">Glasses</a></li>
-    <li><a class="black-text" href="#!">Eyeglass Frames</a></li>
-    <li><a class="black-text" href="#!">Designer Frames</a></li>
-    <li><a class="black-text" href="#!">Prescription Eyeglasses</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Glasses</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Eyeglass Frames</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Designer Frames</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Prescription Eyeglasses</a></li>
   </ul>
   <!-- SUNGLASSES -->
   <ul id="sunglasses" class="dropdown-content">
-    <li><a class="black-text" href="#!">Prescription Sunglasses</a></li>
-    <li><a class="black-text" href="#!">Brands We Carry</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Prescription Sunglasses</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Brands We Carry</a></li>
   </ul>
   <!-- CONTACT LENSES -->
   <ul id="contact-lenses" class="dropdown-content">
-    <li><a class="black-text" href="#!">Order Contacts</a></li>
-    <li><a class="black-text" href="#!">Brands We Carry</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Order Contacts</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Brands We Carry</a></li>
   </ul>
   <!-- PATIENTS -->
   <ul id="patients" class="dropdown-content">
-    <li><a class="black-text" href="#!">Patient Forms</a></li>
-    <li><a class="black-text" href="#!">Insurance & Payment Options</a></li>
-    <li><a class="black-text" href="#!">Your Eye Health</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Patient Forms</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Insurance & Payment Options</a></li>
+    <li><a class="waves-effect waves-light black-text" href="#!">Your Eye Health</a></li>
   </ul>
   <nav class="white black-text" role="navigation">
   <div class="nav-wrapper black-text">
-    <a id="logo-container" href="/" class="brand-logo black-text"><img src="../img/qc.png" alt="Queen City Eye Care" height="56"></a>
+      <a id="logo-container" href="/" class="brand-logo black-text" style="padding-left:10px;"><img src="../img/qc.png" alt="Queen City Eye Care" height="56"></a>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
       <li class="{%if activePage =='home' %} active {% endif %}"><a class="black-text" href="/">Home</a></li>
