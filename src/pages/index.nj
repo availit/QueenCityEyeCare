@@ -7,37 +7,77 @@
 {% import 'macros/nav-macro.nj' as nav %}
 {{nav.active('home')}}
 
-<main class="grey lighten-4">
-  <div class="no-pad-bot" id="index-banner">
-    <div class="parallax-container">
-      <div class="parallax"><img src="../img/slide1.jpg"></div>
-    </div>
-    <div class="container section z-depth-2 white">
-      <div class="row center">
-        text content
-      </div>
-      <div class="row center">
-        <div class="col s6">six col</div>
-        <div class="col s6">six col</div>
+<div id="index-banner" class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <br><br>
+      <h1 class="header white-text text-lighten-2">Professional Optometric Help</h1>
+      <div class="row">
+        <a href="#" id="download-button" class="btn-large waves-effect waves-light indigo">Make an Appointment</a>
       </div>
       <br><br>
-       <div class="row center">
-         <!-- Modal Trigger -->
-         <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
 
-         <!-- Modal Structure -->
-         <div id="modal1" class="modal">
-           <div class="modal-content">
-             <h4>Modal Header</h4>
-             <p>A bunch of text</p>
-           </div>
-           <div class="modal-footer">
-             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-           </div>
-         </div>
-       </div>
     </div>
   </div>
+  <div class="parallax"><img src="../img/slide1.jpg" alt="Parallax 1"></div>
+</div>
+
+  <div class="no-pad-bot" id="index-banner">
+    <div class="section container white">
+      <div class="row">
+            <div class="col s4">
+              <div class="center promo promo-example">
+                <i class="material-icons">visibility</i>
+                <p class="promo-caption bold">Comprehensive Eye Exams</p>
+                <p class="center">We stick to a complete and full oculat examination process with every patient, every time.</p>
+              </div>
+            </div>
+            <div class="col s4">
+              <div class="center promo promo-example">
+                <i class="material-icons">looks</i>
+                <p class="promo-caption bold">Complete Optical Services</p>
+                <p class="center">Provided is a huge spectr of services, including hand-picked designer frames and glasses.</p>
+              </div>
+            </div>
+            <div class="col s4">
+              <div class="center promo promo-example">
+                <i class="material-icons">pageview</i>
+                <p class="promo-caption bold">Contact Lens Examination</p>
+                <p class="center">Effective and immediate assistance with getting the perfect pair of high quality eye lens.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div id="index-banner" class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header white-text text-lighten-2">Our Mission –</h1>
+          <div class="row">
+            <p class="flow-text white-text light">
+              Opticians specialize in the fitting and fabrication of ophthalmic lenses, spectacles, contact lenses, low vision aids and ocular prosthetics. They may also be referred to as an “optical dispenser”, “dispensing optician”, “ophthalmic dispenser”. The prescription for the corrective lenses must be supplied by an ophthalmologist, optometrist or in some countries an orthoptist. This is a regulated profession in most jurisdictions.
+            </p>
+          </div>
+          <br><br>
+
+        </div>
+      </div>
+      <div class="parallax"><img src="../img/slide2.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+    <div class="section red accent-2 white-text">
+      <div class="container">
+        <div class="row valign-wrapper">
+          <div class="col s12 m8 left-align">
+            <h2 class="light subheader">Book Your Exam Appointment Online</h2>
+          </div>
+          <div class="col s12 m4 right-align">
+            <a href="#" class="btn-large white black-text waves-effect waves-light">Make an Appointment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
   <div class="container">
@@ -47,5 +87,5 @@
     <br><br>
   </div>
 
-</main>
+<div class="sidenav-overlay"></div>
 {% endblock %}

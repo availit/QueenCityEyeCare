@@ -1,23 +1,119 @@
 {% macro active(activePage='home') %}
 <div class="navbar-fixed">
+  <!-- OUR PRACTICE -->
+  <ul id="our-practice" class="dropdown-content">
+    <li><a class="black-text" href="#!">Meet The Doctors</a></li>
+    <li><a class="black-text" href="#!">Technology</a></li>
+    <li><a class="black-text" href="#!">Optometry Giving Sight</a></li>
+  </ul>
+  <!-- SERVICES -->
+  <ul id="services" class="dropdown-content">
+    <li><a class="black-text" href="#!">Eye Exams</a></li>
+    <li><a class="black-text" href="#!">Contact Lenses</a></li>
+    <li><a class="black-text" href="#!">Lasik Consultation</a></li>
+  </ul>
+  <!-- EYEWEAR -->
+  <ul id="eyewear" class="dropdown-content">
+    <li><a class="black-text" href="#!">Glasses</a></li>
+    <li><a class="black-text" href="#!">Eyeglass Frames</a></li>
+    <li><a class="black-text" href="#!">Designer Frames</a></li>
+    <li><a class="black-text" href="#!">Prescription Eyeglasses</a></li>
+  </ul>
+  <!-- SUNGLASSES -->
+  <ul id="sunglasses" class="dropdown-content">
+    <li><a class="black-text" href="#!">Prescription Sunglasses</a></li>
+    <li><a class="black-text" href="#!">Brands We Carry</a></li>
+  </ul>
+  <!-- CONTACT LENSES -->
+  <ul id="contact-lenses" class="dropdown-content">
+    <li><a class="black-text" href="#!">Order Contacts</a></li>
+    <li><a class="black-text" href="#!">Brands We Carry</a></li>
+  </ul>
+  <!-- PATIENTS -->
+  <ul id="patients" class="dropdown-content">
+    <li><a class="black-text" href="#!">Patient Forms</a></li>
+    <li><a class="black-text" href="#!">Insurance & Payment Options</a></li>
+    <li><a class="black-text" href="#!">Your Eye Health</a></li>
+  </ul>
   <nav class="white black-text" role="navigation">
-  <div class="nav-wrapper container black-text">
+  <div class="nav-wrapper black-text">
     <a id="logo-container" href="/" class="brand-logo black-text"><img src="../img/qc.png" alt="Queen City Eye Care" height="56"></a>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
       <li class="{%if activePage =='home' %} active {% endif %}"><a class="black-text" href="/">Home</a></li>
-      <li class="{%if activePage =='about' %} active {% endif %}"><a class="black-text" href="/about">About Us</a></li>
-      <li class="{%if activePage =='contact' %} active {% endif %}"><a class="black-text" href="/contact">Contact</a></li>
+      <li><a class="dropdown-trigger black-text" href="#!" data-target="our-practice">Our Practice</a></li>
+      <li><a class="dropdown-trigger black-text" href="#!" data-target="services">Eye Care Services</a></li>
+      <li><a class="dropdown-trigger black-text" href="#!" data-target="eyewear">Eyewear</a></li>
+      <li><a class="dropdown-trigger black-text" href="#!" data-target="sunglasses">Sunglasses</a></li>
+      <li><a class="dropdown-trigger black-text" href="#!" data-target="contact-lenses">Contact Lenses</a></li>
+      <li><a class="dropdown-trigger black-text" href="#!" data-target="patients">Patient Resources</a></li>
+
+      <li class="{%if activePage =='contact' %} active {% endif %}"><a class="black-text" href="/contact">Contact Us</a></li>
+      <li><a class="waves-effect waves-light btn indigo">Book Now</a></li>
     </ul>
   </div>
   </nav>
 </div>
 
-<ul id="nav-mobile" class="sidenav blue-text">
+<ul id="nav-mobile" class="sidenav blue-text collapsible collapsible-accordion">
   <li><a class="subheader">Queen City Eye Care</a></li>
-  <li class="{%if activePage =='home' %} active {% endif %}"><a class="black-text" href="/">Home</a></li>
-  <li class="{%if activePage =='about' %} active {% endif %}"><a class="black-text" href="/about">About Us</a></li>
-  <li class="{%if activePage =='contact' %} active {% endif %}"><a class="black-text" href="/contact">Contact</a></li>
+  <li class="{%if activePage =='home' %} active {% endif %}"><a class="collapsible-header waves-effect waves-blue black-text" href="/" tabindex="0">Home</a></li>
+  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="1">Our Practice</a>
+    <div class="collapsible-body">
+      <ul class="collapsible">
+        <li><a href="#!">Meet The Doctors</a></li>
+        <li><a href="#!">Technology</a></li>
+        <li><a href="#!">Optometry Giving Sight</a></li>
+      </ul>
+    </div>
+  </li>
+  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="2">Eye Care Services</a>
+    <div class="collapsible-body">
+      <ul class="collapsible">
+        <li><a class="black-text" href="#!">Glasses</a></li>
+        <li><a class="black-text" href="#!">Eyeglass Frames</a></li>
+        <li><a class="black-text" href="#!">Designer Frames</a></li>
+        <li><a class="black-text" href="#!">Prescription Eyeglasses</a></li>
+      </ul>
+    </div>
+  </li>
+  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="3">Eyewear</a>
+    <div class="collapsible-body">
+      <ul class="collapsible">
+        <li><a class="black-text" href="#!">Glasses</a></li>
+        <li><a class="black-text" href="#!">Eyeglass Frames</a></li>
+        <li><a class="black-text" href="#!">Designer Frames</a></li>
+        <li><a class="black-text" href="#!">Prescription Eyeglasses</a></li>
+      </ul>
+    </div>
+  </li>
+  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="4">Sunglasses</a>
+    <div class="collapsible-body">
+      <ul class="collapsible">
+        <li><a class="black-text" href="#!">Prescription Sunglasses</a></li>
+        <li><a class="black-text" href="#!">Brands We Carry</a></li>
+      </ul>
+    </div>
+  </li>
+  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="5">Contact Lenses</a>
+    <div class="collapsible-body">
+      <ul class="collapsible">
+        <li><a class="black-text" href="#!">Order Contacts</a></li>
+        <li><a class="black-text" href="#!">Brands We Carry</a></li>
+      </ul>
+    </div>
+  </li>
+  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="6">Patient Resources</a>
+    <div class="collapsible-body">
+      <ul class="collapsible">
+        <li><a class="black-text" href="#!">Patient Forms</a></li>
+        <li><a class="black-text" href="#!">Insurance & Payment Options</a></li>
+        <li><a class="black-text" href="#!">Your Eye Health</a></li>
+      </ul>
+    </div>
+  </li>
+  <li class="{%if activePage =='contact' %} active {% endif %}"><a class="collapsible-header waves-effect waves-blue black-text" href="/contact" tabindex="7">Contact Us</a></li>
+  <li><a class="waves-effect waves-light btn indigo">Book Now</a></li>
 </ul>
 
 {% endmacro %}

@@ -10,6 +10,17 @@ body {
     flex: 1 0 auto;
   }
 
+  .promo i {
+    margin: 40px 0;
+    color: #ee6e73;
+    font-size: 7rem;
+    display: block;
+}
+
+nav.brand-logo {
+  margin-left: 5px!important;
+}
+
 // Color
 @import "components/color-variables";
 @import "components/color-classes";
