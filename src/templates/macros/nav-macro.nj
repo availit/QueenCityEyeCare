@@ -49,7 +49,7 @@
       <li><a class="dropdown-trigger black-text" href="#!" data-target="patients">Patient Resources</a></li>
 
       <li class="{%if activePage =='contact' %} active {% endif %}"><a class="black-text" href="/contact">Contact Us</a></li>
-      <li><a class="waves-effect waves-light btn indigo">Book Now</a></li>
+      <li><a href="/appointment" class="waves-effect waves-light btn secondary">Book Now</a></li>
     </ul>
   </div>
   </nav>

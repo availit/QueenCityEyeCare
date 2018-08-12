@@ -10,7 +10,7 @@
           alignment: 'left', // Displays dropdown with edge aligned to the left of button
           coverTrigger: false // Displays dropdown below the button
         });
-    console.log('init parallax');
+    $('input#input_text, textarea#message_input').characterCounter();
     $('.parallax').parallax();
     $('.sidenav').sidenav();
     $('.materialboxed').materialbox();
