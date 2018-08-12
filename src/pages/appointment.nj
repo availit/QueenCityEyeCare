@@ -9,7 +9,7 @@
 
 <div class="parallax-container valign-wrapper" style="height:250px;">
   <div class="container section no-pad">
-      <h1 class="header white-text text-lighten-2">Make an Appointment online</h1>
+      <h1 class="header white-text text-lighten-2">Schedule an Appointment</h1>
   </div>
   <div class="parallax"><img src="../img/contacts.jpg" alt="Book your appointment"></div>
 </div>
@@ -29,41 +29,84 @@
             </div>
             <div class="input-field col s6">
              <input id="first_name" type="text" class="validate" required>
-             <label for="first_name">First Name</label>
+             <label for="first_name">First Name*</label>
              <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s6">
              <input id="last_name" type="text" class="validate" required>
-             <label for="last_name">Last Name</label>
+             <label for="last_name">Last Name*</label>
              <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s12">
               <input id="email_input" type="email" class="validate" required>
-              <label for="email_input">Your Email</label>
+              <label for="email_input">Your Email*</label>
               <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s12">
               <input id="phone_input" type="tel" class="validate" required>
-              <label for="phone_input">Phone Number</label>
+              <label for="phone_input">Phone Number*</label>
               <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s12">
                 <input id="birthdate" type="text" class="datepicker validate" required>
-                <label for="birthdate">Date of Birth</label>
+                <label for="birthdate">Date of Birth*</label>
                 <span class="helper-text" data-error="This field is required."></span>
+            </div>
+            <div class="input-field col s12">
+              <select>
+                <option value="" disabled selected>Select Reason*</option>
+                <option value="1">Eyeglass Update</option>
+                <option value="2">Contact Lens Update</option>
+                <option value="3">Diabetic/Medical Eye Update</option>
+                <option value="4">Red Eye Check</option>
+                <option value="5">Other (Please specify in comments)</option>
+              </select>
+              <label>Reason for visit</label>
             </div>
             <div class="col s12">
               <p><strong>Appointment Details</strong></p>
             </div>
             <div class="input-field col s12">
                 <input id="appointmentDate" type="text" class="datepicker validate" required>
-                <label for="appointmentDate">Desired Date</label>
+                <label for="appointmentDate">Desired Date*</label>
                 <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s12">
                 <input id="appointmentTime" type="text" class="timepicker validate" required>
-                <label for="appointmentTime">Desired Time</label>
+                <label for="appointmentTime">Desired Time*</label>
                 <span class="helper-text" data-error="This field is required."></span>
+            </div>
+            <div class="input-field col s12">
+              <select>
+                <option value="" disabled selected>Select Vision Insurance</option>
+                <option value="1">NONE</option>
+                <option value="2">VSP</option>
+                <option value="3">EyeMed</option>
+                <option value="4">Spectera</option>
+                <option value="5">Medicaid</option>
+                <option value="6">I don't know</option>
+                <option value="7">Other (Please specify in comments)</option>
+              </select>
+              <label>Vision Insurance</label>
+            </div>
+            <div class="input-field col s12">
+              <select required>
+                <option value="" disabled selected>Select Medical Insurance</option>
+                <option value="1">Aetna</option>
+                <option value="2">BCBS</option>
+                <option value="3">Coventry</option>
+                <option value="4">Humana</option>
+                <option value="5">United Health Care</option>
+                <option value="6">UMR</option>
+                <option value="7">Medicare</option>
+                <option value="8">I don't know</option>
+                <option value="9">Other (Please specify in comments)</option>
+              </select>
+              <label>Medical Insurance</label>
+            </div>
+            <div class="input-field col s12">
+             <input id="insuranceId" type="text" class="validate">
+             <label for="insuranceId">Medical Insurance ID</label>
             </div>
             <div class="input-field col s12">
               <textarea id="comments" class="materialize-textarea" data-length="1000" required></textarea>

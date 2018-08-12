@@ -10,12 +10,17 @@
 <div class="parallax-container valign-wrapper">
   <div class="section no-pad">
     <div class="container">
-      <br><br>
-      <h1 class="header white-text text-lighten-2">Professional Optometric Help</h1>
+
       <div class="row">
-        <a href="/appointment" class="btn-large waves-effect waves-light indigo">Make an Appointment</a>
+        <div class="col s12">
+          <h2 class="header white-text text-lighten-2">Looking Better</h2>
+          <h4 class="header white-text text-lighten-2">is Feeling Better..</h4>
+        </div>
+        <div class="col s12">
+          <a href="/appointment" class="btn-large waves-effect waves-light indigo">Make an Appointment</a>
+        </div>
       </div>
-      <br><br>
+
 
     </div>
   </div>
@@ -70,7 +75,7 @@
             <h3 class="light subheader">Book Your Exam Appointment Online</h3>
           </div>
           <div class="col s12 m5 center-align">
-            <a href="#" class="btn white black-text waves-effect waves-dark">Create Appointment</a>
+            <a href="/appointment" class="btn white black-text waves-effect waves-dark pulse">Create Appointment</a>
           </div>
         </div>
       </div>

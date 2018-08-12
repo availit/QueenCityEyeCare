@@ -9,10 +9,11 @@
           alignment: 'left', // Displays dropdown with edge aligned to the left of button
           coverTrigger: false // Displays dropdown below the button
         });
-    $('input#input_text, textarea#message_input').characterCounter();
     $('.parallax').parallax();
     $('.sidenav').sidenav();
-
+    // FORM INPUTS INIT
+    $('input#input_text, textarea#message_input').characterCounter();
+    $('select').formSelect();
     // DATE OF BIRTH SELECTOR
     $('#birthdate').datepicker({
     defaultDate: new Date(1980,01,0),
