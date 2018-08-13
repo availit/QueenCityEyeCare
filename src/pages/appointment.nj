@@ -1,6 +1,6 @@
 {% extends "../templates/layout.nj" %}
 {% block head %}
-<title>Queen City Eye Care</title>
+<title>Queen City Eye Care - Book Appointment</title>
 {% endblock %}
 
 {% block content %}
@@ -22,7 +22,7 @@
             <p class="flow-text light">Please fill out form below to request for an appointment. Once we have received your request, someone from our staff will contact you to confirm your appointment.</p>
           </div>
         </div>
-        <form netlify>
+        <form name="appointment" method="POST" netlify>
           <div class="row">
             <div class="col s12">
               <p><strong>Your Details</strong></p>

@@ -1,7 +1,7 @@
 {% extends "../templates/layout.nj" %}
 
 {% block head %}
-<title>About Page</title>
+<title>Queen City Eye Care - About Us</title>
 {% endblock %}
 
 {% block content %}
