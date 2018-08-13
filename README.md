@@ -1,4 +1,4 @@
-# Material-JAMstack
+# QueenCityEyeCare
 
 > A static website boilerplate utilizing Materialize CSS framework
 > Built for deployment using [Netlify](http://netlify.com)
@@ -7,11 +7,10 @@
 
 ## Features
 The fresh ingredients to the [JAM](https://jamstack.org/):
-* Featuring [Anymod](https://anymod.com) for a componentized CMS
-* Mozilla Nunjucks Templating Engine
-* Materialize CSS framework
-* GulpJS Build System
-* Browser-Sync dev environment with hot reload
+* Nunjucks html templating
+* Materialize CSS
+* GulpJS
+* Browser-Sync local environment
 
 ## Build
 
@@ -26,7 +25,3 @@ $ npm run dev
 $ npm run build
 
 ```
-
-## Deploy Demo
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/availit/Material-JAM)

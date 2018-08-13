@@ -1,6 +1,6 @@
 {
-  "name": "material-JAMstack",
-  "version": "1.0.0",
+  "name": "QueenCityEyeCare",
+  "version": "1.2.0",
   "description": "a static website utilizing Gulp and Materialize",
   "scripts": {
     "dev": "gulp",
