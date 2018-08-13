@@ -79,28 +79,28 @@
             <div class="input-field col s12">
               <select name="vision_insurance">
                 <option value="" disabled selected>Select Vision Insurance</option>
-                <option value="1">NONE</option>
-                <option value="2">VSP</option>
-                <option value="3">EyeMed</option>
-                <option value="4">Spectera</option>
-                <option value="5">Medicaid</option>
-                <option value="6">I don't know</option>
-                <option value="7">Other (Please specify in comments)</option>
+                <option value="NONE">NONE</option>
+                <option value="VSP">VSP</option>
+                <option value="EyeMed">EyeMed</option>
+                <option value="Spectera">Spectera</option>
+                <option value="Medicaid">Medicaid</option>
+                <option value="I don't know">I don't know</option>
+                <option value="Other">Other (Please specify in comments)</option>
               </select>
               <label>Vision Insurance</label>
             </div>
             <div class="input-field col s12">
               <select name="medical_insurance">
                 <option value="" disabled selected>Select Medical Insurance</option>
-                <option value="1">Aetna</option>
-                <option value="2">BCBS</option>
-                <option value="3">Coventry</option>
-                <option value="4">Humana</option>
-                <option value="5">United Health Care</option>
-                <option value="6">UMR</option>
-                <option value="7">Medicare</option>
-                <option value="8">I don't know</option>
-                <option value="9">Other (Please specify in comments)</option>
+                <option value="Aetna">Aetna</option>
+                <option value="BCBS">BCBS</option>
+                <option value="Coventry">Coventry</option>
+                <option value="Humana">Humana</option>
+                <option value="United Health Care">United Health Care</option>
+                <option value="UMR">UMR</option>
+                <option value="Medicare">Medicare</option>
+                <option value="I don't know">I don't know</option>
+                <option value="Other">Other (Please specify in comments)</option>
               </select>
               <label>Medical Insurance</label>
             </div>
