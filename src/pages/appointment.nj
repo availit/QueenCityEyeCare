@@ -28,32 +28,32 @@
               <p><strong>Your Details</strong></p>
             </div>
             <div class="input-field col s6">
-             <input id="first_name" type="text" class="validate" required>
+             <input name="first_name" id="first_name" type="text" class="validate" required>
              <label for="first_name">First Name*</label>
              <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s6">
-             <input id="last_name" type="text" class="validate" required>
+             <input name="last_name" id="last_name" type="text" class="validate" required>
              <label for="last_name">Last Name*</label>
              <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s12">
-              <input id="email_input" type="email" class="validate" required>
+              <input name="email" id="email_input" type="email" class="validate" required>
               <label for="email_input">Your Email*</label>
               <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s12">
-              <input id="phone_input" type="tel" class="validate" required>
+              <input name="phone_number" id="phone_input" type="tel" class="validate" required>
               <label for="phone_input">Phone Number*</label>
               <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s12">
-                <input id="birthdate" type="text" class="datepicker validate" required>
+                <input name="date_of_birth" id="birthdate" type="text" class="datepicker validate" required>
                 <label for="birthdate">Date of Birth*</label>
                 <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s12">
-              <select>
+              <select name="reason_for_visit">
                 <option value="" disabled selected>Select Reason*</option>
                 <option value="1">Eyeglass Update</option>
                 <option value="2">Contact Lens Update</option>
@@ -67,17 +67,17 @@
               <p><strong>Appointment Details</strong></p>
             </div>
             <div class="input-field col s12">
-                <input id="appointmentDate" type="text" class="datepicker validate" required>
+                <input name="apt_date" id="appointmentDate" type="text" class="datepicker validate" required>
                 <label for="appointmentDate">Desired Date*</label>
                 <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s12">
-                <input id="appointmentTime" type="text" class="timepicker validate" required>
+                <input name="apt_time" id="appointmentTime" type="text" class="timepicker validate" required>
                 <label for="appointmentTime">Desired Time*</label>
                 <span class="helper-text" data-error="This field is required."></span>
             </div>
             <div class="input-field col s12">
-              <select>
+              <select name="vision_insurance">
                 <option value="" disabled selected>Select Vision Insurance</option>
                 <option value="1">NONE</option>
                 <option value="2">VSP</option>
@@ -90,7 +90,7 @@
               <label>Vision Insurance</label>
             </div>
             <div class="input-field col s12">
-              <select required>
+              <select name="medical_insurance">
                 <option value="" disabled selected>Select Medical Insurance</option>
                 <option value="1">Aetna</option>
                 <option value="2">BCBS</option>
@@ -105,11 +105,11 @@
               <label>Medical Insurance</label>
             </div>
             <div class="input-field col s12">
-             <input id="insuranceId" type="text" class="validate">
+             <input name="insurance_id" id="insuranceId" type="text" class="validate">
              <label for="insuranceId">Medical Insurance ID</label>
             </div>
             <div class="input-field col s12">
-              <textarea id="comments" class="materialize-textarea" data-length="1000" required></textarea>
+              <textarea name="comments" id="comments" class="materialize-textarea" data-length="1000" required></textarea>
               <label for="comments">Additional Comments</label>
               <span class="helper-text" data-error="Too many characters. 1000 maximum." data-success="right"></span>
             </div>
