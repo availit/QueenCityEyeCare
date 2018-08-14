@@ -24,6 +24,8 @@ gulp.task('serve', ['nunjucks','imageMin', 'sass', 'JS'], () => {
         req.url = '/appointment.html';
       } else if (req.url === '/static') {
         req.url = '/static.html';
+      } else if (req.url === '/meet-the-doctors') {
+        req.url = '/meet-the-doctors.html';
       }
       return next();
     }

@@ -55,11 +55,11 @@
             <div class="input-field col s12">
               <select name="reason_for_visit">
                 <option value="" disabled selected>Select Reason*</option>
-                <option value="1">Eyeglass Update</option>
-                <option value="2">Contact Lens Update</option>
-                <option value="3">Diabetic/Medical Eye Update</option>
-                <option value="4">Red Eye Check</option>
-                <option value="5">Other (Please specify in comments)</option>
+                <option value="Eyeglass Update">Eyeglass Update</option>
+                <option value="Contact Lens Update">Contact Lens Update</option>
+                <option value="Diabetic/Medical Eye Update">Diabetic/Medical Eye Update</option>
+                <option value="Red Eye Check">Red Eye Check</option>
+                <option value="Other">Other (Please specify in comments)</option>
               </select>
               <label>Reason for visit</label>
             </div>

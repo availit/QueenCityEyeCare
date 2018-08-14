@@ -1,0 +1,28 @@
+{% extends "../templates/layout.nj" %}
+
+{% block head %}
+<title>Queen City Eye Care - Meet the doctors</title>
+{% endblock %}
+
+{% block content %}
+{% import 'macros/nav-macro.nj' as nav %}
+{{nav.active('meetDoctors')}}
+
+<div class="parallax-container valign-wrapper" style="height:250px;">
+  <div class="container section no-padding">
+      <h1 class="header white-text text-lighten-2">Demo header</h1>
+  </div>
+  <div class="parallax"><img src="../img/contacts.jpg" alt="Book your appointment"></div>
+</div>
+
+<div class="section no-padding-bot white">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l4 no-padding">
+          <p>this is a new page</p>
+        </div>
+     </div>
+    </div>
+  </div>
+
+{% endblock %}

@@ -1,10 +1,11 @@
 {% macro active(activePage='home') %}
 <div class="navbar-fixed">
-  <!-- OUR PRACTICE -->
+  {# DROP DOWN MENUS #}
+  {# OUR PRACTICE #}
   <ul id="our-practice" class="dropdown-content">
-    <li><a class="waves-effect waves-light black-text" href="#!">Meet The Doctors</a></li>
-    <li><a class="waves-effect waves-light black-text" href="#!">Technology</a></li>
-    <li><a class="waves-effect waves-light black-text" href="#!">Optometry Giving Sight</a></li>
+    <li class="{%if activePage == 'meetDoctors' %} active light {% endif %}"><a class="waves-effect waves-dark black-text" href="/meet-the-doctors">Meet The Doctors</a></li>
+    <li><a class="waves-effect waves-dark black-text" href="#!">Technology</a></li>
+    <li><a class="waves-effect waves-dark black-text" href="#!">Optometry Giving Sight</a></li>
   </ul>
   <!-- SERVICES -->
   <ul id="services" class="dropdown-content">
@@ -40,8 +41,9 @@
       <a id="logo-container" href="/" class="brand-logo black-text" style="padding-left:10px;"><img src="../img/qc.png" alt="Queen City Eye Care" height="56"></a>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
+      {# DROPDOWN MENU TRIGGER HEADERS #}
       <!-- <li class="{%if activePage =='home' %} active {% endif %}"><a class="black-text" href="/">Home</a></li> -->
-      <li><a class="dropdown-trigger black-text" href="#!" data-target="our-practice">Our Practice</a></li>
+      <li><a class="dropdown-trigger black-text {%if activePage == 'meetDoctors' %} active {% endif %}" href="#!" data-target="our-practice">Our Practice</a></li>
       <li><a class="dropdown-trigger black-text" href="#!" data-target="services">Eye Care Services</a></li>
       <li><a class="dropdown-trigger black-text" href="#!" data-target="eyewear">Eyewear</a></li>
       <li><a class="dropdown-trigger black-text" href="#!" data-target="sunglasses">Sunglasses</a></li>
@@ -54,20 +56,20 @@
   </div>
   </nav>
 </div>
-
+{# MOBILE SIDENAV COLLAPSIBLE #}
 <ul id="nav-mobile" class="sidenav blue-text collapsible collapsible-accordion">
   <li><a class="subheader">Queen City Eye Care</a></li>
   <li class="{%if activePage =='home' %} active {% endif %}"><a class="collapsible-header waves-effect waves-blue black-text" href="/" tabindex="0">Home</a></li>
-  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="1">Our Practice</a>
+  <li  class="{%if activePage == 'meetDoctors' %} active {% endif %}"><a class="collapsible-header waves-effect waves-blue" tabindex="1">Our Practice</a>
     <div class="collapsible-body">
       <ul class="collapsible">
-        <li><a href="#!">Meet The Doctors</a></li>
+        <li><a class="{%if activePage == 'meetDoctors' %} indigo-text {% endif %}" href="/meet-the-doctors">Meet The Doctors</a></li>
         <li><a href="#!">Technology</a></li>
         <li><a href="#!">Optometry Giving Sight</a></li>
       </ul>
     </div>
   </li>
-  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="2">Eye Care Services</a>
+  <li ><a class="collapsible-header waves-effect waves-blue" tabindex="2">Eye Care Services</a>
     <div class="collapsible-body">
       <ul class="collapsible">
         <li><a class="black-text" href="#!">Glasses</a></li>
@@ -77,7 +79,7 @@
       </ul>
     </div>
   </li>
-  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="3">Eyewear</a>
+  <li ><a class="collapsible-header waves-effect waves-blue" tabindex="3">Eyewear</a>
     <div class="collapsible-body">
       <ul class="collapsible">
         <li><a class="black-text" href="#!">Glasses</a></li>
@@ -87,7 +89,7 @@
       </ul>
     </div>
   </li>
-  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="4">Sunglasses</a>
+  <li ><a class="collapsible-header waves-effect waves-blue" tabindex="4">Sunglasses</a>
     <div class="collapsible-body">
       <ul class="collapsible">
         <li><a class="black-text" href="#!">Prescription Sunglasses</a></li>
@@ -95,7 +97,7 @@
       </ul>
     </div>
   </li>
-  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="5">Contact Lenses</a>
+  <li ><a class="collapsible-header waves-effect waves-blue" tabindex="5">Contact Lenses</a>
     <div class="collapsible-body">
       <ul class="collapsible">
         <li><a class="black-text" href="#!">Order Contacts</a></li>
@@ -103,7 +105,7 @@
       </ul>
     </div>
   </li>
-  <li class="bold"><a class="collapsible-header waves-effect waves-blue" tabindex="6">Patient Resources</a>
+  <li ><a class="collapsible-header waves-effect waves-blue" tabindex="6">Patient Resources</a>
     <div class="collapsible-body">
       <ul class="collapsible">
         <li><a class="black-text" href="#!">Patient Forms</a></li>
@@ -112,7 +114,7 @@
       </ul>
     </div>
   </li>
-  <li class="{%if activePage =='contact' %} active {% endif %}"><a class="collapsible-header waves-effect waves-blue black-text" href="/contact" tabindex="7">Contact Us</a></li>
+  <li class="{%if activePage == 'contact' %} active {% endif %}"><a class="collapsible-header waves-effect waves-blue black-text" href="/contact" tabindex="7">Contact Us</a></li>
   <li><a href="/appointment" class="waves-effect waves-light btn secondary">Book Now</a></li>
 </ul>
 
