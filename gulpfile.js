@@ -16,7 +16,17 @@ gulp.task('build', ['nunjucks','imageMin', 'sass', 'JS'])
 // npm run dev
 gulp.task('serve', ['nunjucks','imageMin', 'sass', 'JS'], () => {
   browserSync.init({
-    server: "./dist"
+    server: "./dist",
+    middleware: function(req,res,next) {
+      if (req.url === '/contact/') {
+        req.url = '/contact.html';
+      } else if (req.url === '/appointment') {
+        req.url = '/appointment.html';
+      } else if (req.url === '/static') {
+        req.url = '/static.html';
+      }
+      return next();
+    }
   })
   // gulp.watch('src/js/*.js', ['JS']).on('change', browserSync.reload)
   gulp.watch('src/scss/*.scss', ['sass']).on('change', browserSync.reload)
