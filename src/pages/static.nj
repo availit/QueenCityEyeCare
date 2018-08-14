@@ -1,0 +1,50 @@
+{% extends "../templates/layout.nj" %}
+
+{% block head %}
+<title>Queen City Eye Care - About Us</title>
+{% endblock %}
+
+{% block content %}
+{% import 'macros/nav-macro.nj' as nav %}
+{{nav.active('about')}}
+<main class="grey lighten-4">
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container z-depth-1 white">
+      <div class="row grey lighten-1">
+       <div class="col s12 l4">
+         <ul class="collection">
+           <li class="collection-item avatar grey lighten-1">
+             <i class="material-icons circle white grey-text">perm_contact_calendar</i>
+             <span class="title"><strong>Open 7 Days a Week</strong></span>
+             <p>10am - 8pm</p>
+           </li>
+         </ul>
+       </div>
+       <div class="col s12 l4">
+         <ul class="collection">
+           <li class="collection-item avatar grey lighten-1">
+             <i class="material-icons circle">hourglass_empty</i>
+             <span class="title"><strong>Immediate Service</strong></span>
+             <p>10am - 8pm</p>
+           </li>
+         </ul>
+       </div>
+       <div class="col s12 l4">
+         <i class="material-icons">people</i>Licensed Specialist
+       </div>
+       <div class="col s12 l4">
+         <i class="material-icons">security</i>Security
+       </div>
+       <div class="col s12 l4">
+         <i class="material-icons">build</i>Repairs
+       </div>
+       <div class="col s12 l4">
+         <i class="material-icons">bookmark</i>Warranty
+       </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+{% endblock %}
