@@ -10,7 +10,7 @@
 
 <div class="parallax-container valign-wrapper" style="height:250px;">
   <div class="container section no-padding">
-      <h1 class="header white-text text-lighten-2">Demo header</h1>
+      <h1 class="header white-text text-lighten-2">Meet our doctors</h1>
   </div>
   <div class="parallax"><img src="../img/contacts.jpg" alt="Book your appointment"></div>
 </div>
@@ -18,8 +18,28 @@
 <div class="section no-padding-bot white">
     <div class="container">
       <div class="row">
-        <div class="col s12 l4 no-padding">
-          <p>this is a new page</p>
+        <div class="col s12">
+          <p class="flow-text light">
+            The doctors and staff at Queen City Eye Care are pleased to welcome you to our practice. Our commitment is not just in meeting your expectations, but in exceeding them! Because we know how much your eye health and appearance can mean to the quality of your life, we are committed to excellence in servicing your complete eye care needs.
+          </p>
+        </div>
+        <div class="col s12 no-padding">
+           <h3 class="header">Horizontal Card</h3>
+           <div class="card horizontal">
+             <div class="card-image">
+               <img src="../img/doctor-tran.png" alt="Dr. Agnes Lan Tran">
+             </div>
+             <div class="card-stacked">
+               <div class="card-content">
+                 <p>Dr. Tran is a therapeutic optometrist licensed to diagnose & treat eye anomalies & diseases. She is dedicated to providing exceptional eye care to everyone while focusing her attention to those who are unable to come to her.</p>
+                 <br />
+                 <p>Born in Vietnam, Dr. Tran arrived in the USA at the age of 3 and has made Springfield her home since 1984. She graduated from Springfield Catholic High School in 1989 and attended the Southwest Missouri State University, Drury University and the University of Missouri-St. Louis for her doctorate of optometry.</p>
+               </div>
+               <div class="card-action">
+                 <a href="#" class="indigo-text">Make an Appointment</a>
+               </div>
+             </div>
+           </div>
         </div>
      </div>
     </div>
