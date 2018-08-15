@@ -17,8 +17,11 @@
   <div class="container section no-pad-bot" id="index-banner">
       <div class="row">
         <div class="col s12 m6">
-          <form name="contact" method="POST" netlify>
+          <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
             <div class="row">
+              <p style="visibility: hidden;">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+              </p>
               <div class="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
                 <input name="full_name" id="name_input" type="text" class="validate" required>
@@ -36,6 +39,9 @@
                 <textarea name="message" id="message_input" class="materialize-textarea" data-length="1000"  required></textarea>
                 <label for="message_input">Message</label>
                 <span class="helper-text" data-error="Too many characters. 1000 maximum." data-success="right"></span>
+              </div>
+              <div class="input-field col s12">
+                <div data-netlify-recaptcha></div>
               </div>
               <div class="input-field col s12">
                 <button class="btn-large waves-effect waves-light secondary right" type="submit" name="action" style="width:100%">Submit
