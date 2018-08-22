@@ -32,7 +32,7 @@
   </ul>
   <!-- PATIENTS -->
   <ul id="patients" class="dropdown-content">
-    <li><a class="waves-effect waves-light black-text" href="#!">Patient Forms</a></li>
+    <li><a class="waves-effect waves-light black-text" href="/patient-forms.html">Patient Forms</a></li>
     <li><a class="waves-effect waves-light black-text" href="#!">Insurance & Payment Options</a></li>
     <li><a class="waves-effect waves-light black-text" href="#!">Your Eye Health</a></li>
   </ul>
