@@ -114,8 +114,14 @@
       </ul>
     </div>
   </li>
-  
-  <li class="{%if activePage == 'contact' %} active {% endif %}"><a class="collapsible-header waves-effect waves-blue black-text" href="/contact" tabindex="7">Contact Us</a></li>
+  <li ><a class="collapsible-header waves-effect waves-blue" tabindex="7">Reviews</a>
+    <div class="collapsible-body">
+      <ul class="collapsible">
+        <li><a class="black-text" href="/reviews.html"></a>Customer Reviews</li>
+      </ul>
+    </div>
+  </li>
+  <li class="{%if activePage == 'contact' %} active {% endif %}"><a class="collapsible-header waves-effect waves-blue black-text" href="/contact" tabindex="8">Contact Us</a></li>
   <li><a href="/appointment" class="waves-effect waves-light btn secondary">Book Now</a></li>
 </ul>
 
