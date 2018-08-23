@@ -15,13 +15,8 @@
   </ul>
   <!-- EYEWEAR -->
   <ul id="eyewear" class="dropdown-content">
-    <li><a class="waves-effect waves-light black-text" href="#!">Glasses</a></li>
-    <li><a class="waves-effect waves-light black-text" href="#!">Eyeglass Frames</a></li>
     <li><a class="waves-effect waves-light black-text" href="#!">Designer Frames</a></li>
     <li><a class="waves-effect waves-light black-text" href="#!">Prescription Eyeglasses</a></li>
-  </ul>
-  <!-- SUNGLASSES -->
-  <ul id="sunglasses" class="dropdown-content">
     <li><a class="waves-effect waves-light black-text" href="#!">Prescription Sunglasses</a></li>
     <li><a class="waves-effect waves-light black-text" href="#!">Brands We Carry</a></li>
   </ul>
@@ -44,9 +39,8 @@
       {# DROPDOWN MENU TRIGGER HEADERS #}
       <!-- <li class="{%if activePage =='home' %} active {% endif %}"><a class="black-text" href="/">Home</a></li> -->
       <li><a class="dropdown-trigger black-text {%if activePage == 'meetDoctors' %} active {% endif %}" href="#!" data-target="our-practice">Our Practice</a></li>
-      <li><a class="dropdown-trigger black-text" href="#!" data-target="services">Eye Care Services</a></li>
+      <li><a class="dropdown-trigger black-text" href="#!" data-target="services">Eye Care</a></li>
       <li><a class="dropdown-trigger black-text" href="#!" data-target="eyewear">Eyewear</a></li>
-      <li><a class="dropdown-trigger black-text" href="#!" data-target="sunglasses">Sunglasses</a></li>
       <li><a class="dropdown-trigger black-text" href="#!" data-target="contact-lenses">Contact Lenses</a></li>
       <li><a class="dropdown-trigger black-text" href="#!" data-target="patients">Patient Resources</a></li>
 
