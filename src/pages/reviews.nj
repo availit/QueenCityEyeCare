@@ -16,7 +16,7 @@
 </div>
 
 <div class="section no-padding-bot white">
-    <div class="container">
+    <div class="container center-align">
       <div class="row">
         <div class="col s12 no-padding">
            <div class="card horizontal">
@@ -30,8 +30,13 @@ I had never used contacts before but was intrigued and she encouraged me and hel
 Dr. Tran has a lovely personality and is so sincere. She also is very funny. You can really tell she cares about her patients and wants the best for them. She doesnt rush you and really listens to what you have to say. I feel like I've been her patient for years. I would recommend her to anyone who needs their eyes checked you will not be disappointed!</p>
                  <br />
                </div>
-               <div class="card-action">
+               <div class="card-action blue lighten-2">
                 <h6>Olivia H.</h6>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
                </div>
              </div>
            </div>
@@ -41,7 +46,7 @@ Dr. Tran has a lovely personality and is so sincere. She also is very funny. You
   </div>
 
   <div class="section no-padding-bot white">
-      <div class="container">
+      <div class="container center-align">
         <div class="row">
           <div class="col s12 no-padding">
              <div class="card horizontal">
@@ -53,8 +58,13 @@ Dr. Tran has a lovely personality and is so sincere. She also is very funny. You
                    <p>I needed an eye exam and new glasses so I decided to give this place a try. What a great place! The facility is very nice and VERY clean. Not a hair out of place. Dr. Tran is amazing! She is so nice and really takes the time to get to know you and to explain things. I will never go anywhere else. The exam is reasonably priced even if you have to pay out of pocket. Speaking of money, if you're on a tight budget they also have very reasonably priced frames and they will do their best to get you what you need.</p>
                    <br />
                  </div>
-                 <div class="card-action">
+                 <div class="card-action blue lighten-2">
                   <h6>Tracy B.</h6>
+                  <i class="material-icons">star</i>
+                  <i class="material-icons">star</i>
+                  <i class="material-icons">star</i>
+                  <i class="material-icons">star</i>
+                  <i class="material-icons">star</i>
                  </div>
                </div>
              </div>
@@ -62,7 +72,88 @@ Dr. Tran has a lovely personality and is so sincere. She also is very funny. You
        </div>
       </div>
     </div>
-
+    <div class="section no-padding-bot white">
+        <div class="container center-align">
+          <div class="row">
+            <div class="col s12 no-padding">
+               <div class="card horizontal">
+                 <div class="card-image">
+                   <img src="" alt="">
+                 </div>
+                 <div class="card-stacked">
+                   <div class="card-content">
+                     <p>Dr Tran was prompt, friendly, courteous, professional AND she had a great sense of humor. It's like I won the medical lottery! I'd highly recommend her. She'll be my family eye Dr from here on out. I liked her so much I might just be buried in my glasses. :-))</p>
+                     <br />
+                   </div>
+                   <div class="card-action blue lighten-2">
+                    <h6>Jackson S.</h6>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                   </div>
+                 </div>
+               </div>
+            </div>
+         </div>
+        </div>
+      </div>
+      <div class="section no-padding-bot white">
+          <div class="container center-align">
+            <div class="row">
+              <div class="col s12 no-padding">
+                 <div class="card horizontal">
+                   <div class="card-image">
+                     <img src="" alt="">
+                   </div>
+                   <div class="card-stacked">
+                     <div class="card-content">
+                       <p>Queen City Eye Care is by far the best quality eye care business around!  My husband and I started going here last year whenever he began having vision issues.  As a younger married couple who doesn't have a lot of extra money as my husband finishes college, they have really gone all out to try and find ways to help us cut costs but still receive the quality products we needed and deserved.  Dr. Tran, Henry and the team work hard to be very thorough with their exams and treat everyone like family!  Whenever it was my turn to get an exam at the end of the year, I was so happy to find out my insurance also was covered there so I could get the best in town.  I have an endocrine disorder, and Dr. Tran was able to see this through an eye scan and explain based on the look of my blood vessels, how a potential concern could arise due to my disorder in future years and how it could be detected via my eyes.  It was fascinating and I appreciated her taking the time to explain how my health connects to other areas of my body and potential signs to look for in the future.
+We went back for my husband's yearly exam today and found out that his insurance wasn't going to cover costs of an issue that popped up, so they worked with us to make sure we could get it all worked out.  As someone who loves details and information,  I am thankful for a professional who spends extra time with her clients, making sure she is thorough with her exams, all questions are actually answered, and everyone is satisfied.  They have a quick return on their glasses and contacts within a few days, Saturday appointments, and ability to scheudle online.  I also really love that they are an incredibly compassionate group of team members that are hilarious, up-to-date, and knowledgeable in their field.  I can't think of anything else I could want in a company caring for my family's eyes!</p>
+                       <br />
+                     </div>
+                     <div class="card-action blue lighten-2">
+                      <h6>Jillian N.</h6>
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                     </div>
+                   </div>
+                 </div>
+              </div>
+           </div>
+          </div>
+        </div>
+        <div class="section no-padding-bot white">
+            <div class="container center-align">
+              <div class="row">
+                <div class="col s12 no-padding">
+                   <div class="card horizontal">
+                     <div class="card-image">
+                       <img src="" alt="">
+                     </div>
+                     <div class="card-stacked">
+                       <div class="card-content">
+                         <p>Best eye care around... i am on fixed income and she did not treat me like a number ...Dr Tran is excellent, my pc saw something thining in my vains and she did severeal test and was able to treat it...I got the best frames around I checked out several places and they only have a couple of frames my insurance would take, but she had a whole wall to choose from.. i recommend everyone to go have a caring Doctor to check out your eyes, i promise its not a 5 minute check up..</p>
+                         <br />
+                       </div>
+                       <div class="card-action blue lighten-2">
+                        <h6>Tree h.</h6>
+                         <i class="material-icons">star</i>
+                         <i class="material-icons">star</i>
+                         <i class="material-icons">star</i>
+                         <i class="material-icons">star</i>
+                         <i class="material-icons">star</i>
+                       </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+            </div>
+          </div>
 
 
 
