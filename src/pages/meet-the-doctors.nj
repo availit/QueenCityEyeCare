@@ -36,7 +36,7 @@
                  <p>Born in Vietnam, Dr. Tran arrived in the USA at the age of 3 and has made Springfield her home since 1984. She graduated from Springfield Catholic High School in 1989 and attended the Southwest Missouri State University, Drury University and the University of Missouri-St. Louis for her doctorate of optometry.</p>
                </div>
                <div class="card-action">
-                 <a href="#" class="indigo-text">Make an Appointment</a>
+                 <a href="/appointment" class="indigo-text">Make an Appointment</a>
                </div>
              </div>
            </div>
